@@ -1,11 +1,11 @@
 export default function App() {
   return (
      <div style={{
-  fontFamily: "Arial, sans-serif",
-  margin: 0,
-  width: "100%",
-  minHeight: "100vh"
-}}>
+     fontFamily: "Arial, sans-serif",
+     margin: 0,
+     width: "100%",
+     minHeight: "100vh"
+     }}>
 
       {/* NAVBAR */}
       <nav style={{
@@ -28,10 +28,10 @@ export default function App() {
       {/* HERO */}
       <section id="inicio" style={{
          width: "100%",
-  background: "linear-gradient(to right, #1e3a8a, #2563eb)",
-  color: "white",
-  padding: "120px 20px",
-  textAlign: "center"
+         background: "linear-gradient(to right, #1e3a8a, #2563eb)",
+         color: "white",
+         padding: "120px 20px",
+         textAlign: "center"
       }}>
         <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
           Aprende desde casa con calidad profesional

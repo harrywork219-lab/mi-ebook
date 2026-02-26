@@ -12,7 +12,7 @@ export default function App() {
         backgroundColor: "#1e3a8a",
         padding: "15px",
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "flex end",
         gap: "40px"
       }}>
         <a href="#inicio" style={{ color: "white", textDecoration: "none" }}>Inicio</a>

@@ -1,6 +1,9 @@
 export default function App() {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", margin: 0 }}>
+    <div style={{ fontFamily: "Arial, sans-serif", margin: 0,
+      width: "100%",
+      minHeight: "100vh"
+     }}>
 
       {/* MENÚ */}
       <nav style={{

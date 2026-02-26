@@ -126,7 +126,7 @@ export default function App() {
        © 2026 @DigitalbookSH - Todos los derechos reservados
        </div>
 
-     </section>
+       </section>
 
     </div>
   );

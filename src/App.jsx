@@ -23,7 +23,7 @@ export default function App() {
 
       {/* INICIO */}
       <section id="inicio" style={{ textAlign: "center", padding: "60px 20px" }}>
-        <h1 style={{ fontSize: "40px", color: "#1e3a8a" }}>Bienvenido a Digital HD</h1>
+        <h1 style={{ fontSize: "40px", color: "#1e3a8a" }}>Bienvenido a DIgitalBookSH</h1>
         <p style={{ fontSize: "20px", maxWidth: "700px", margin: "20px auto" }}>
           Aprende desde casa con nuestros e-books y clases online diseñadas para toda la familia.
         </p>
@@ -123,7 +123,7 @@ export default function App() {
        </p>
 
        <div style={{ marginTop: "30px", fontSize: "14px", opacity: 0.6 }}>
-       © 2026 Digital HD - Todos los derechos reservados
+       © 2026 @DigitalbookSH - Todos los derechos reservados
        </div>
 
      </section>

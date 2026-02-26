@@ -28,7 +28,7 @@ export default function App() {
       {/* EBOOKS */}
       <section id="ebooks" style={{ backgroundColor: "#f3f4f6", padding: "60px 20px", textAlign: "center" }}>
         <h2 style={{ fontSize: "32px", color: "#111827" }}>Nuestros E-books</h2>
-        <img src="/ebook.jpg" alt="Ebook" style={{ width: "250px", margin: "20px 0", borderRadius: "8px" }} />
+        <img src="/tablet.jpg" alt="Ebook" style={{ width: "250px", margin: "20px 0", borderRadius: "8px" }} />
         <p style={{ maxWidth: "600px", margin: "auto" }}>
           Descubre guías prácticas para mejorar tus ingresos, educación y desarrollo personal.
         </p>
@@ -55,7 +55,7 @@ export default function App() {
       {/* CLASES */}
       <section id="clases" style={{ padding: "60px 20px", textAlign: "center" }}>
         <h2 style={{ fontSize: "32px", color: "#111827" }}>Clases Online</h2>
-        <img src="/clases.jpg" alt="Clases online" style={{ width: "250px", margin: "20px 0", borderRadius: "8px" }} />
+        <img src="/leyendo.jpg" alt="Clases online" style={{ width: "250px", margin: "20px 0", borderRadius: "8px" }} />
         <p style={{ maxWidth: "600px", margin: "auto" }}>
           Formación virtual en vivo y grabada para niños, jóvenes y adultos.
         </p>

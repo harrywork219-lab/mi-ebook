@@ -1,7 +1,7 @@
 export default function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", margin: 0,
-      width: "100%",
+      width: "max",
       minHeight: "100vh"
      }}>
 

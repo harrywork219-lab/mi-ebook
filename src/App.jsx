@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div style={{fontFamily: "Arial", textAlign: "center", padding: "40px"}}>
+      <h1>Aprende a Generar Ingresos Online</h1>
+      <p>Descubre el método paso a paso para crear tu negocio digital.</p>
 
-export default App
+      <a 
+        href="https://pay.hotmart.com/Y104608917D"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button style={{
+          padding: "15px 30px",
+          fontSize: "18px",
+          backgroundColor: "#4f46e5",
+          color: "white",
+          border: "none",
+          borderRadius: "8px",
+          cursor: "pointer",
+          marginTop: "20px"
+        }}>
+          Comprar Ahora
+        </button>
+      </a>
+    </div>
+  );
+}

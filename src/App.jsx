@@ -2,84 +2,117 @@ export default function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", margin: 0 }}>
 
-      {/* MENÚ */}
+      {/* NAVBAR */}
       <nav style={{
-        backgroundColor: "#1e3a8a",
-        padding: "15px",
+        backgroundColor: "#0f172a",
+        padding: "18px 40px",
         display: "flex",
-        justifyContent: "center",
-        gap: "40px"
+        justifyContent: "space-between",
+        alignItems: "center"
       }}>
-        <a href="#inicio" style={{ color: "white", textDecoration: "none" }}>Inicio</a>
-        <a href="#ebooks" style={{ color: "white", textDecoration: "none" }}>E-books</a>
-        <a href="#clases" style={{ color: "white", textDecoration: "none" }}>Clases Online</a>
-        <a href="#contacto" style={{ color: "white", textDecoration: "none" }}>Contacto</a>
+        <h2 style={{ color: "white", margin: 0 }}>Digital HD</h2>
+
+        <div style={{ display: "flex", gap: "30px" }}>
+          <a href="#inicio" style={linkStyle}>Inicio</a>
+          <a href="#ebooks" style={linkStyle}>E-books</a>
+          <a href="#clases" style={linkStyle}>Clases Online</a>
+          <a href="#contacto" style={linkStyle}>Contacto</a>
+        </div>
       </nav>
 
-      {/* INICIO */}
-      <section id="inicio" style={{ textAlign: "center", padding: "60px 20px" }}>
-        <h1 style={{ fontSize: "40px", color: "#1e3a8a" }}>Bienvenido a Digital HD</h1>
-        <p style={{ fontSize: "20px", maxWidth: "700px", margin: "20px auto" }}>
-          Aprende desde casa con nuestros e-books y clases online diseñadas para toda la familia.
-        </p>
-        <img src="/familia.jpg" alt="Familia aprendiendo" style={{ width: "300px", borderRadius: "10px" }} />
-      </section>
+      {/* HERO */}
+      <section id="inicio" style={{
+        background: "linear-gradient(to right, #1e3a8a, #2563eb)",
+        color: "white",
+        padding: "100px 20px",
+        textAlign: "center"
+      }}>
+        <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
+          Aprende desde casa con calidad profesional
+        </h1>
 
-      {/* EBOOKS */}
-      <section id="ebooks" style={{ backgroundColor: "#f3f4f6", padding: "60px 20px", textAlign: "center" }}>
-        <h2 style={{ fontSize: "32px", color: "#111827" }}>Nuestros E-books</h2>
-        <img src="/tablet.jpg" alt="Ebook" style={{ width: "250px", margin: "20px 0", borderRadius: "8px" }} />
-        <p style={{ maxWidth: "600px", margin: "auto" }}>
-          Descubre guías prácticas para mejorar tus ingresos, educación y desarrollo personal.
+        <p style={{
+          fontSize: "20px",
+          maxWidth: "700px",
+          margin: "0 auto 40px auto"
+        }}>
+          E-books y clases online diseñadas para transformar tu aprendizaje
+          y el de tu familia.
         </p>
-        <br />
-        <a 
-          href="https://pay.hotmart.com/Y104608917D"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button style={{
-            padding: "15px 30px",
-            fontSize: "18px",
-            backgroundColor: "#2563eb",
-            color: "white",
-            border: "none",
-            borderRadius: "8px",
-            cursor: "pointer"
-          }}>
-            Comprar E-book
-          </button>
-        </a>
-      </section>
 
-      {/* CLASES */}
-      <section id="clases" style={{ padding: "60px 20px", textAlign: "center" }}>
-        <h2 style={{ fontSize: "32px", color: "#111827" }}>Clases Online</h2>
-        <img src="/leyendo.jpg" alt="Clases online" style={{ width: "250px", margin: "20px 0", borderRadius: "8px" }} />
-        <p style={{ maxWidth: "600px", margin: "auto" }}>
-          Formación virtual en vivo y grabada para niños, jóvenes y adultos.
-        </p>
-        <br />
         <button style={{
-          padding: "15px 30px",
+          backgroundColor: "#facc15",
+          color: "#000",
+          padding: "15px 35px",
           fontSize: "18px",
-          backgroundColor: "#16a34a",
-          color: "white",
           border: "none",
           borderRadius: "8px",
-          cursor: "pointer"
+          cursor: "pointer",
+          fontWeight: "bold"
         }}>
-          Inscribirme Ahora
+          Comprar Ahora
         </button>
       </section>
 
-      {/* CONTACTO */}
-      <section id="contacto" style={{ backgroundColor: "#1e3a8a", color: "white", padding: "40px", textAlign: "center" }}>
-        <h3>Contacto</h3>
-        <p>Email: contacto@digitalhd.com</p>
-        <p>© 2026 Digital HD - Todos los derechos reservados</p>
+      {/* EBOOKS */}
+      <section id="ebooks" style={{
+        padding: "80px 20px",
+        textAlign: "center"
+      }}>
+        <h2 style={{ fontSize: "36px", marginBottom: "40px", color: "#111827" }}>
+          Nuestros E-books
+        </h2>
+
+        <div style={{
+          display: "flex",
+          justifyContent: "center",
+          gap: "40px",
+          flexWrap: "wrap"
+        }}>
+          <div style={cardStyle}>
+            <img src="/tablet.jpg" alt="Ebook" style={imageStyle} />
+            <h3>E-book Premium</h3>
+            <p>Contenido práctico y fácil de aplicar.</p>
+          </div>
+
+          <div style={cardStyle}>
+            <img src="/leyendo.jpg" alt="Clases" style={imageStyle} />
+            <h3>Clases Online</h3>
+            <p>Aprende paso a paso desde cualquier lugar.</p>
+          </div>
+        </div>
       </section>
+
+      {/* FOOTER */}
+      <footer style={{
+        backgroundColor: "#0f172a",
+        color: "white",
+        textAlign: "center",
+        padding: "30px"
+      }}>
+        © 2026 Digital HD - Todos los derechos reservados
+      </footer>
 
     </div>
   );
 }
+
+const linkStyle = {
+  color: "white",
+  textDecoration: "none",
+  fontSize: "16px"
+};
+
+const cardStyle = {
+  backgroundColor: "white",
+  padding: "25px",
+  borderRadius: "12px",
+  width: "280px",
+  boxShadow: "0 10px 25px rgba(0,0,0,0.1)"
+};
+
+const imageStyle = {
+  width: "100%",
+  borderRadius: "10px",
+  marginBottom: "15px"
+};

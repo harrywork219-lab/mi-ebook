@@ -5,7 +5,7 @@ export default function App() {
          width: "100%",
          display: "block",
          justifyContent: "center"
-     }}>
+      }}>
 
       {/* MENÚ */}
       <nav style={{

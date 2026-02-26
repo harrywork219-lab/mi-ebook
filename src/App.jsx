@@ -3,7 +3,7 @@ export default function App() {
     <div style={{ fontFamily: "Arial, sans-serif", margin: 0,
          margin: 0,
          width: "100%",
-         display: "flex",
+         display: "column",
          justifyContent: "center"
      }}>
 

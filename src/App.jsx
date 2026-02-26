@@ -77,11 +77,54 @@ export default function App() {
       </section>
 
       {/* CONTACTO */}
-      <section id="contacto" style={{ backgroundColor: "#1e3a8a", color: "white", padding: "40px", textAlign: "center" }}>
-        <h3>Contacto</h3>
-        <p>Email: contacto@digitalhd.com</p>
-        <p>© 2026 Digital HD - Todos los derechos reservados</p>
-      </section>
+     <section id="contacto" style={{
+       backgroundColor: "#0f172a",
+       color: "white",
+       padding: "60px 20px",
+       textAlign: "center"
+       }}>
+
+       <h2 style={{ fontSize: "28px", marginBottom: "25px" }}>
+       Contáctanos
+       </h2>
+
+       <p>
+       📧 Email: 
+       <a 
+       href="mailto:contacto@digitalhd.com"
+       style={{ color: "#facc15", textDecoration: "none", marginLeft: "5px" }}
+       >
+       contacto@digitalhd.com
+       </a>
+       </p>
+
+       <p>
+        📸 Instagram: 
+        <a 
+         href="https://instagram.com/digitalhd"
+        target="_blank"
+        style={{ color: "#facc15", textDecoration: "none", marginLeft: "5px" }}
+       >
+        @digitalhd
+       </a>
+       </p>
+
+        <p>
+        💬 WhatsApp: 
+       <a 
+        href="https://wa.me/573001234567"
+        target="_blank"
+        style={{ color: "#facc15", textDecoration: "none", marginLeft: "5px" }}
+        >
+       Escríbenos aquí
+       </a>
+       </p>
+
+       <div style={{ marginTop: "30px", fontSize: "14px", opacity: 0.6 }}>
+       © 2026 Digital HD - Todos los derechos reservados
+       </div>
+
+     </section>
 
     </div>
   );

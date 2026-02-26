@@ -1,9 +1,10 @@
 export default function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", margin: 0,
-       width: "100%",
-       textAlign: "center",
-       padding: "80px 20px"
+         margin: 0,
+         width: "100%",
+         display: "flex",
+         justifyContent: "center"
      }}>
 
       {/* MENÚ */}
